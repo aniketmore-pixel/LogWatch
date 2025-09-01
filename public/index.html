@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Log Viewer</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <style>
+    body { font-family: monospace; background: #111; color: #0f0; padding: 1rem; }
+    pre { white-space: pre-wrap; word-wrap: break-word; }
+  </style>
+</head>
+<body>
+  <h1>Live Log Viewer</h1>
+  <pre id="logOutput"></pre>
+
+  <script>
+    const socket = io();
+    const output = document.getElementById("logOutput");
+
+    // Initial data
+    socket.on("init", function(logs) {
+      output.textContent = logs.join("\n");
+    });
+
+    // On new log update
+    socket.on("update-log", function(logs) {
+      output.textContent = logs.join("\n");
+    });
+  </script>
+</body>
+</html>
