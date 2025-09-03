@@ -32,7 +32,7 @@ A Node.js-based real-time log viewer that streams the last **10 lines** of a log
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/realtime-log-viewer.git
+   git clone https://github.com/aniketmore-pixel/realtime-log-viewer.git
    cd realtime-log-viewer
    ```
 
