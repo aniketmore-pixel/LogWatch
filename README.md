@@ -109,15 +109,8 @@ $ echo "[INFO] New log entry" >> test.log
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 💡 Author
-**Your Name**  
-Made with ❤️ using **Node.js** + **Socket.IO**.
+Aniket More 
 
 ---
 
