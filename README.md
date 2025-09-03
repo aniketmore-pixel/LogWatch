@@ -20,7 +20,6 @@ A Node.js-based real-time log viewer that streams the last **10 lines** of a log
 ├── public/
 │   ├── index.html       # Frontend UI
 │   ├── styles.css       # Styling (optional)
-│   └── client.js        # Handles Socket.IO events
 ├── server.js            # Main server file
 ├── watcher.js           # Custom log file watcher
 ├── test.log             # Log file being watched
