@@ -1,4 +1,4 @@
-# 📜 LogWatch
+# LogWatch
 
 A Node.js-based real-time log viewer that streams the last **10 lines** of a log file and updates live in the browser using **Express**, **Socket.IO**, and a custom **Watcher**.
 
